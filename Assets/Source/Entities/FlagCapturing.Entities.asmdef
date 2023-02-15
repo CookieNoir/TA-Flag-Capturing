@@ -1,0 +1,16 @@
+{
+    "name": "FlagCapturing.Entities",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cf993691a71d8de4b8c31551fe95b43d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,19 @@
+{
+    "name": "FlagCapturing.Configs",
+    "rootNamespace": "",
+    "references": [
+        "GUID:343deaaf83e0cee4ca978e7df0b80d21",
+        "GUID:7d2a98fab26e18c46b327101eba791bb",
+        "GUID:e08179d4b0c80fd46b6f8f5a60bbfddc",
+        "GUID:8fbef7605881f3f41a64c64f29515620"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
