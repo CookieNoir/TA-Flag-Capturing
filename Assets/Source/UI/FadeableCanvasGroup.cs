@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
-using FlagCapturing.UI.Lerpable;
+using FlagCapturing.Lerpable;
 using FlagCapturing.UI.Fadeable;
 
 namespace FlagCapturing.UI

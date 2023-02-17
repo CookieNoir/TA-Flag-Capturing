@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace FlagCapturing.UI.Lerpable
+namespace FlagCapturing.Lerpable
 {
     [Serializable]
     public abstract class Lerpable<T>

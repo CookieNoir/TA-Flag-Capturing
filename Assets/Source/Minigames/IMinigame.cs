@@ -10,5 +10,6 @@ namespace FlagCapturing.Minigames
         void Launch();
         void Win();
         void Lose();
+        void Stop();
     }
 }

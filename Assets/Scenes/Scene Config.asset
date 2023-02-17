@@ -12,13 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edbd8522d98849f41acdf5821cf09ae8, type: 3}
   m_Name: Scene Config
   m_EditorClassIdentifier: 
+  playerSettings:
+    movementSpeed: 1
+  joystickSettings:
+    minOutputStrength: 0.2
+  effectRegistrySettings:
+    effects:
+    - <Name>k__BackingField: No Capturing
+      <Duration>k__BackingField: 2
+      <Icon>k__BackingField: {fileID: 21300000, guid: 65f0e363b74cf5845ab8c3fbc14f39ac, type: 3}
+  flagSpawnerSettings:
+    flagsQuantity: 5
+  flagSettings:
+    size: 1
+    timeForCapturing: 5
   minigameSettings:
     successZoneSettings:
       startPointRange: {x: 0.5, y: 0.7}
       sizeRange: {x: 0.15, y: 0.3}
     movingPartSpeed: 0.6
     maxDuration: 1.5
-  joystickSettings:
-    minOutputStrength: 0.2
-  playerSettings:
-    movementSpeed: 1
+  resolverSettings:
+    onFailureEffectName: No Capturing
+    maxDelayBeforeMinigame: 1.5
+  gameSettings:
+    flagsForWin: 5

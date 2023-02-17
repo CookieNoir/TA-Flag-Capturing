@@ -1,5 +1,6 @@
 using System;
 using FlagCapturing.Entities.Movement;
+using FlagCapturing.Entities.Effects;
 using UnityEngine;
 using Zenject;
 
@@ -8,6 +9,7 @@ namespace FlagCapturing.Entities
     public class Player : MonoBehaviour
     {
         [field: SerializeField] public BaseMovement Movement { get; private set; }
+        [field: SerializeField] public EffectHandler Effects { get; private set; }
         [SerializeField] Settings _settings;
 
         [Inject]

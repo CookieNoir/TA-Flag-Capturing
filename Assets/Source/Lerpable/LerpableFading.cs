@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-namespace FlagCapturing.UI.Lerpable
+namespace FlagCapturing.Lerpable
 {
     public static class LerpableFading
     {

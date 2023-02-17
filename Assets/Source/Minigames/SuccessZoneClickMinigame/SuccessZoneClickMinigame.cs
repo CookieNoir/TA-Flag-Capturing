@@ -75,8 +75,8 @@ namespace FlagCapturing.Minigames
 
         public void TryToSolve()
         {
-            if (!_started) return;
-            _StopMinigame(Helpers.InRange(
+            Stop();
+            _InvokeWithResult(Helpers.InRange(
                 _movingPart.CurrentPosition, 
                 _successZoneBorders.x, 
                 _successZoneBorders.y));
@@ -84,20 +84,20 @@ namespace FlagCapturing.Minigames
 
         public void Win()
         {
-            if (!_started) return;
-            _StopMinigame(true);
+            Stop();
+            _InvokeWithResult(true);
         }
 
         public void Lose()
         {
-            if (!_started) return;
-            _StopMinigame(false);
+            Stop();
+            _InvokeWithResult(false);
         }
 
-        private void _StopMinigame(bool result)
+        public void Stop()
         {
+            if (!_started) return;
             _started = false;
-            _InvokeOnResult(result);
             _StopComponents();
             OnMinigameStopped.Invoke();
         }
@@ -108,7 +108,7 @@ namespace FlagCapturing.Minigames
             _movingPart.Stop();
         }
 
-        private void _InvokeOnResult(bool result)
+        private void _InvokeWithResult(bool result)
         {
             if (result) OnSuccess?.Invoke();
             else OnFailure?.Invoke();

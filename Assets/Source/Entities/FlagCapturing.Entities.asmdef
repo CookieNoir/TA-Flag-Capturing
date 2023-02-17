@@ -2,7 +2,8 @@
     "name": "FlagCapturing.Entities",
     "rootNamespace": "",
     "references": [
-        "GUID:cf993691a71d8de4b8c31551fe95b43d"
+        "GUID:cf993691a71d8de4b8c31551fe95b43d",
+        "GUID:690fca028e24e0d41bb245b329a46bd5"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

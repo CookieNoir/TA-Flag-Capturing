@@ -1,7 +1,9 @@
 {
     "name": "FlagCapturing.Utils",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:a5086641fdd770549a6d9956d1e5bb6e"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
